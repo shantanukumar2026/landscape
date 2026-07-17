@@ -22,7 +22,7 @@ function App() {
           transition: 'background 0.3s ease'
         }}>
           <a href="#" className="logo-container">
-            <span>🌿</span> GREENSCAPE
+            <span>🌿</span> LANDSCAPE
           </a>
           
           <div className="top-links">
@@ -174,7 +174,7 @@ function App() {
             </h2>
             <div style={{ width: '80px', height: '4px', background: 'var(--primary-light)', marginBottom: '32px' }}></div>
             <p style={{ color: 'var(--text-muted)', fontSize: '16px', lineHeight: 1.8, marginBottom: '32px' }}>
-              GreenScape was founded with a single unwavering mission: to develop landscaping management products that actively reduce environmental harm while creating stunning spaces.
+              Landscape was founded with a single unwavering mission: to develop landscaping management products that actively reduce environmental harm while creating stunning spaces.
             </p>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '16px' }}>
               <li style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
@@ -197,7 +197,7 @@ function App() {
         <div className="footer-grid">
           <div className="footer-brand">
             <a href="#" className="footer-logo">
-              <span>🌿</span> GREENSCAPE
+              <span>🌿</span> LANDSCAPE
             </a>
             <p className="footer-desc">
               Precision-engineered landscaping management infrastructure dedicated to creating sustainable, beautiful, and enduring outdoor environments.
@@ -253,7 +253,7 @@ function App() {
         </div>
         
         <div className="footer-bottom">
-          <div>&copy; {new Date().getFullYear()} GreenScape Engineering. All rights reserved.</div>
+          <div>&copy; {new Date().getFullYear()} Landscape Engineering. All rights reserved.</div>
           <div style={{ display: 'flex', gap: '24px' }}>
             <a href="#" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>Privacy Policy</a>
             <a href="#" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>Terms of Service</a>
