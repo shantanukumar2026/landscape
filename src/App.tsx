@@ -22,7 +22,7 @@ function App() {
           transition: 'background 0.3s ease'
         }}>
           <a href="#" className="logo-container" style={{ display: 'flex', alignItems: 'center' }}>
-            <img src="/images/logo.png" alt="Eber Jimenez Landscape Logo" style={{ height: '80px', width: 'auto', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.2)' }} />
+            <img src="/images/logo.png" alt="Eber Jimenez Landscape Logo" style={{ height: '90px', width: 'auto' }} />
           </a>
           
           <div className="top-links">
@@ -197,7 +197,7 @@ function App() {
         <div className="footer-grid">
           <div className="footer-brand">
             <a href="#" className="footer-logo" style={{ display: 'inline-block', marginBottom: '16px' }}>
-              <img src="/images/logo.png" alt="Eber Jimenez Landscape Logo" style={{ height: '100px', width: 'auto', borderRadius: '12px', boxShadow: '0 4px 15px rgba(0,0,0,0.3)' }} />
+              <img src="/images/logo.png" alt="Eber Jimenez Landscape Logo" style={{ height: '120px', width: 'auto' }} />
             </a>
             <p className="footer-desc">
               Precision-engineered landscaping management infrastructure dedicated to creating sustainable, beautiful, and enduring outdoor environments.
