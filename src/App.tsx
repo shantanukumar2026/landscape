@@ -22,7 +22,7 @@ function App() {
           transition: 'background 0.3s ease'
         }}>
           <a href="#" className="logo-container">
-            <span>🌿</span> LANDSCAPE
+            <span>🌿</span> EBER JIMENEZ LANDSCAPE
           </a>
           
           <div className="top-links">
@@ -197,11 +197,17 @@ function App() {
         <div className="footer-grid">
           <div className="footer-brand">
             <a href="#" className="footer-logo">
-              <span>🌿</span> LANDSCAPE
+              <span>🌿</span> EBER JIMENEZ LANDSCAPE
             </a>
             <p className="footer-desc">
               Precision-engineered landscaping management infrastructure dedicated to creating sustainable, beautiful, and enduring outdoor environments.
             </p>
+            <div style={{ marginTop: '16px', color: 'var(--text-muted)' }}>
+              <p>132 Lockwood</p>
+              <p>Huntington, NY 11763</p>
+              <p style={{ marginTop: '8px' }}>+1 (631) 327-2544</p>
+              <p>631-827-7408</p>
+            </div>
           </div>
           
           <div>
@@ -253,7 +259,7 @@ function App() {
         </div>
         
         <div className="footer-bottom">
-          <div>&copy; {new Date().getFullYear()} Landscape Engineering. All rights reserved.</div>
+          <div>&copy; {new Date().getFullYear()} Eber Jimenez Landscape. All rights reserved.</div>
           <div style={{ display: 'flex', gap: '24px' }}>
             <a href="#" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>Privacy Policy</a>
             <a href="#" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>Terms of Service</a>
