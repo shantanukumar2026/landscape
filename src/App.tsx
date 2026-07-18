@@ -168,9 +168,9 @@ function App() {
             { title: t.service5, img: "/images/istockphoto-1192014583-1024x1024.jpg" },
             { title: t.service6, img: "/images/istockphoto-1215011264-1024x1024.jpg" },
           ].map((service, i) => (
-            <div key={i} className="service-card" style={{ padding: 0, overflow: 'hidden', position: 'relative', height: '280px', borderRadius: '16px' }}>
-              <img src={service.img} alt={service.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-              <div style={{ position: 'absolute', bottom: 0, left: 0, width: '100%', padding: '30px 20px 20px', background: 'linear-gradient(transparent, rgba(0,0,0,0.9))' }}>
+            <div key={i} className="service-card" style={{ display: 'block', padding: 0, overflow: 'hidden', position: 'relative', height: '280px', borderRadius: '16px', border: 'none' }}>
+              <img src={service.img} alt={service.title} style={{ display: 'block', width: '100%', height: '100%', objectFit: 'cover' }} />
+              <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '40px 20px 20px', background: 'linear-gradient(transparent, rgba(0,0,0,0.9))' }}>
                 <h3 style={{ margin: 0, fontSize: '1.2rem', color: 'white' }}>{service.title}</h3>
               </div>
             </div>
