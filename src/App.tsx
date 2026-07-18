@@ -111,7 +111,9 @@ function App() {
         </div>
 
         <div className="hero-right">
-          <div className="hero-bg"></div>
+          <video className="hero-bg" autoPlay loop muted playsInline style={{ objectFit: 'cover', width: '100%', height: '100%' }}>
+            <source src="/images/istockphoto-1468836753-640_adpp_is.mp4" type="video/mp4" />
+          </video>
 
           <div className="floating-stats">
             <div className="stat-item">
@@ -159,16 +161,18 @@ function App() {
 
         <div className="services-grid">
           {[
-            { title: t.service1, icon: <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg> },
-            { title: t.service2, icon: <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m15 12-8.373 8.373a2 2 0 1 1-2.828-2.828L12 9.172"/><path d="m14 7.464 4-4a2 2 0 1 1 2.828 2.828l-4 4"/><path d="m17.5 5.5-2-2"/><path d="m14 7.5-2-2"/></svg> },
-            { title: t.service3, icon: <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> },
-            { title: t.service4, icon: <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg> },
-            { title: t.service5, icon: <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/></svg> },
-            { title: t.service6, icon: <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="16" y1="13" x2="16" y2="21"/><line x1="8" y1="13" x2="8" y2="21"/><line x1="12" y1="15" x2="12" y2="23"/><path d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25"/></svg> },
+            { title: t.service1, img: "/images/istockphoto-1001943738-1024x1024.jpg" },
+            { title: t.service2, img: "/images/istockphoto-1064396034-1024x1024.jpg" },
+            { title: t.service3, img: "/images/istockphoto-1167213599-1024x1024.jpg" },
+            { title: t.service4, img: "/images/istockphoto-1191736904-1024x1024.jpg" },
+            { title: t.service5, img: "/images/istockphoto-1192014583-1024x1024.jpg" },
+            { title: t.service6, img: "/images/istockphoto-1215011264-1024x1024.jpg" },
           ].map((service, i) => (
-            <div key={i} className="service-card">
-              <div className="service-icon">{service.icon}</div>
-              <h3>{service.title}</h3>
+            <div key={i} className="service-card" style={{ padding: 0, overflow: 'hidden', position: 'relative', height: '280px', borderRadius: '16px' }}>
+              <img src={service.img} alt={service.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              <div style={{ position: 'absolute', bottom: 0, left: 0, width: '100%', padding: '30px 20px 20px', background: 'linear-gradient(transparent, rgba(0,0,0,0.9))' }}>
+                <h3 style={{ margin: 0, fontSize: '1.2rem', color: 'white' }}>{service.title}</h3>
+              </div>
             </div>
           ))}
         </div>
