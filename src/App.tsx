@@ -16,7 +16,6 @@ function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const toggleLang = () => setLang(prev => prev === 'en' ? 'es' : 'en');
 
   return (
     <>
