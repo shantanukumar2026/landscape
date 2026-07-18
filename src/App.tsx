@@ -112,7 +112,7 @@ function App() {
 
         <div className="hero-right">
           <video className="hero-bg" autoPlay loop muted playsInline style={{ objectFit: 'cover', width: '100%', height: '100%' }}>
-            <source src="/images/istockphoto-1468836753-640_adpp_is.mp4" type="video/mp4" />
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-gardener-cutting-a-bush-with-shears-4161-large.mp4" type="video/mp4" />
           </video>
 
           <div className="floating-stats">
@@ -161,12 +161,12 @@ function App() {
 
         <div className="services-grid">
           {[
-            { title: t.service1, img: "/images/istockphoto-1001943738-1024x1024.jpg" },
-            { title: t.service2, img: "/images/istockphoto-1064396034-1024x1024.jpg" },
-            { title: t.service3, img: "/images/istockphoto-1167213599-1024x1024.jpg" },
-            { title: t.service4, img: "/images/istockphoto-1191736904-1024x1024.jpg" },
-            { title: t.service5, img: "/images/istockphoto-1192014583-1024x1024.jpg" },
-            { title: t.service6, img: "/images/istockphoto-1215011264-1024x1024.jpg" },
+            { title: t.service1, img: "https://images.unsplash.com/photo-1563514227147-6d2ff665a6a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1024&q=80" },
+            { title: t.service2, img: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1024&q=80" },
+            { title: t.service3, img: "https://images.unsplash.com/photo-1558904541-efa843a96f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1024&q=80" },
+            { title: t.service4, img: "https://images.unsplash.com/photo-1561577553-68cb7bd0db1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1024&q=80" },
+            { title: t.service5, img: "https://images.unsplash.com/photo-1621293954908-907159247fc8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1024&q=80" },
+            { title: t.service6, img: "https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1024&q=80" },
           ].map((service, i) => (
             <div key={i} className="service-card" style={{ display: 'block', padding: 0, overflow: 'hidden', position: 'relative', height: '280px', borderRadius: '16px', border: 'none' }}>
               <img src={service.img} alt={service.title} style={{ display: 'block', width: '100%', height: '100%', objectFit: 'cover' }} />
