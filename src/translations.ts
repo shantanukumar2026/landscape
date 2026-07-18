@@ -44,6 +44,14 @@ export const translations = {
     rightsReserved: 'All rights reserved.',
     privacyPolicy: 'Privacy Policy',
     termsOfService: 'Terms of Service',
+    servicesTitle: 'Our Services',
+    servicesSub: 'Comprehensive landscaping solutions tailored to your needs.',
+    service1: 'Irrigation System',
+    service2: 'Landscape Construction',
+    service3: 'Commercial & Residential Landscape Maintenance',
+    service4: 'Landscape Lighting',
+    service5: 'Pressure Washing',
+    service6: 'Drainage Solutions',
   },
   es: {
     history: 'Historia',
@@ -90,5 +98,13 @@ export const translations = {
     rightsReserved: 'Todos los derechos reservados.',
     privacyPolicy: 'Política de Privacidad',
     termsOfService: 'Términos de Servicio',
+    servicesTitle: 'Nuestros Servicios',
+    servicesSub: 'Soluciones integrales de paisajismo adaptadas a sus necesidades.',
+    service1: 'Sistema de Riego',
+    service2: 'Construcción de Paisajes',
+    service3: 'Mantenimiento de Paisajes Comercial y Residencial',
+    service4: 'Iluminación de Paisajes',
+    service5: 'Lavado a Presión',
+    service6: 'Soluciones de Drenaje',
   }
 };
