@@ -32,24 +32,6 @@ function App() {
           </a>
 
           <div className="top-links">
-            <select 
-              value={lang}
-              onChange={(e) => setLang(e.target.value as 'en' | 'es')}
-              style={{ 
-                background: 'rgba(255,255,255,0.1)', 
-                color: 'white', 
-                border: '1px solid rgba(255,255,255,0.3)', 
-                padding: '6px 12px', 
-                borderRadius: '4px',
-                cursor: 'pointer',
-                fontFamily: 'inherit',
-                fontWeight: 600,
-                outline: 'none'
-              }}
-            >
-              <option value="en" style={{ color: '#000' }}>English</option>
-              <option value="es" style={{ color: '#000' }}>Español</option>
-            </select>
             <button>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>
               {t.history}
@@ -66,6 +48,24 @@ function App() {
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
               {t.contact}
             </button>
+            <select 
+              value={lang}
+              onChange={(e) => setLang(e.target.value as 'en' | 'es')}
+              style={{ 
+                background: 'transparent', 
+                color: 'white', 
+                border: 'none', 
+                cursor: 'pointer',
+                fontFamily: 'inherit',
+                fontWeight: 800,
+                fontSize: '13px',
+                outline: 'none',
+                marginLeft: '8px'
+              }}
+            >
+              <option value="en" style={{ color: '#000' }}>EN</option>
+              <option value="es" style={{ color: '#000' }}>ES</option>
+            </select>
           </div>
         </div>
 
