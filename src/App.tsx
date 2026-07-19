@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './index.css';
+import Logo from './components/Logo';
 import { translations } from './translations';
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
           transition: 'background 0.3s ease'
         }}>
           <a href="#" className="logo-container" style={{ display: 'flex', alignItems: 'center' }}>
-            <img src="/images/new_logo.jpg" alt="Eber Jimenez Landscape Logo" style={{ height: '90px', width: 'auto', borderRadius: '8px' }} />
+            <Logo className="app-logo header-logo" />
           </a>
 
           <div className="top-links">
@@ -219,7 +220,7 @@ function App() {
         <div className="footer-grid">
           <div className="footer-brand">
             <a href="#" className="footer-logo" style={{ display: 'inline-block', marginBottom: '16px' }}>
-              <img src="/images/new_logo.jpg" alt="Eber Jimenez Landscape Logo" style={{ height: '120px', width: 'auto', borderRadius: '8px' }} />
+              <Logo className="app-logo footer-logo-img" />
             </a>
             <p className="footer-desc">
               {t.footerDesc}

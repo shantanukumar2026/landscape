@@ -74,6 +74,24 @@ header {
   min-width: 250px;
 }
 
+/* App SVG logo (inline) - scalable and fillable via CSS */
+.app-logo {
+  display: inline-block;
+  color: var(--primary-dark);
+  line-height: 0;
+}
+.app-logo svg {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+.header-logo {
+  height: 140px; /* larger header logo */
+}
+.footer-logo-img {
+  height: 180px; /* larger footer logo */
+}
+
 .logo-container span {
   color: var(--primary-light);
 }
