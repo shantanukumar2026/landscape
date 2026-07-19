@@ -86,6 +86,13 @@ header {
   height: 100%;
   width: auto;
 }
+.logo-img {
+  display: block;
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+  border-radius: 8px;
+}
 .header-logo {
 .header-logo {
   height: 160px; /* larger header logo */
