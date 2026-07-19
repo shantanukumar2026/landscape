@@ -49,7 +49,7 @@ header {
 
 .top-bar {
   background: var(--primary-dark);
-  height: 100px;
+  height: 160px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -72,6 +72,7 @@ header {
   padding: 0 20px;
   width: auto;
   min-width: 250px;
+  min-width: 340px;
 }
 
 /* App SVG logo (inline) - scalable and fillable via CSS */
@@ -86,10 +87,11 @@ header {
   width: auto;
 }
 .header-logo {
-  height: 140px; /* larger header logo */
+.header-logo {
+  height: 160px; /* larger header logo */
 }
 .footer-logo-img {
-  height: 180px; /* larger footer logo */
+  height: 160px; /* larger footer logo */
 }
 
 .logo-container span {
@@ -197,7 +199,7 @@ header {
   width: 100%;
   display: flex;
   background: var(--bg-dark);
-  padding-top: 156px; /* Accounts for header (100px + 56px) */
+  padding-top: 216px; /* Accounts for header (160px + 56px) */
 }
 
 .hero-left {
