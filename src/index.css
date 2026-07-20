@@ -59,7 +59,6 @@ header {
 .logo-container {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 12px;
   background: white;
   color: var(--primary-dark);
@@ -69,23 +68,10 @@ header {
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 2px;
-  height: 156px;
-  align-self: flex-start;
+  height: 100%;
   padding: 0 20px;
   width: auto;
-  min-width: 180px;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-  transition: all 0.3s ease;
-  z-index: 60;
-}
-
-.logo-container.scrolled {
-  height: 100px;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  box-shadow: none;
+  min-width: 250px;
 }
 
 /* App SVG logo (inline) - scalable and fillable via CSS */
@@ -107,10 +93,10 @@ header {
   border-radius: 8px;
 }
 .header-logo {
-  height: 160px; /* larger header logo */
+  height: 100%;
 }
 .footer-logo-img {
-  height: 160px; /* larger footer logo */
+  height: 120px;
 }
 
 .logo-container span {
@@ -159,7 +145,6 @@ header {
   align-items: center;
   gap: 40px;
   height: 100%;
-  margin-left: 200px; /* Offset to clear the hanging header logo */
 }
 
 .bottom-nav button {
