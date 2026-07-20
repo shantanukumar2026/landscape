@@ -30,7 +30,7 @@ function App() {
           <a href="#" className="logo-container" style={{ display: 'flex', alignItems: 'center' }}>
             <Logo 
               className="app-logo header-logo" 
-              imageStyle={{ height: '90px', width: 'auto' }} 
+              style={{ height: '100%', alignItems: 'center' }}
             />
           </a>
 
