@@ -27,7 +27,15 @@ function App() {
           transition: 'background 0.3s ease'
         }}>
           <a href="#" className="logo-container" style={{ display: 'flex', alignItems: 'center' }}>
-            <img src="/images/new_logo.jpg" alt="Eber Jimenez Landscape Logo" style={{ height: '90px', width: 'auto', borderRadius: '8px' }} />
+            <img 
+              src="/images/new_logo.jpg" 
+              alt="Eber Jimenez Landscape Logo" 
+              style={{ 
+                height: '95px', 
+                width: '100%', 
+                borderRadius: '8px' 
+              }} 
+            />
           </a>
 
           <div className="top-links">
