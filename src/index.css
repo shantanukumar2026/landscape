@@ -70,6 +70,7 @@ header {
   text-transform: uppercase;
   letter-spacing: 2px;
   height: 100%;
+  align-self: stretch;
   padding: 0 20px;
   width: auto;
   min-width: auto;
