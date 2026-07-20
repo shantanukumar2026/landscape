@@ -37,7 +37,7 @@ function App() {
                 justifyContent: 'center'
               }} 
               imageStyle={{ 
-                height: scrolled ? '80px' : '120px', 
+                height: scrolled ? '80px' : '136px', 
                 width: 'auto', 
                 transition: 'all 0.3s ease'
               }} 
@@ -250,7 +250,7 @@ function App() {
             <h4 className="footer-title">{t.navigation}</h4>
             <ul className="footer-links">
               <li><a href="#capabilities">{t.capabilities}</a></li>
-              <li><a href="#products">{t.productsAndServices}</a></li>
+              <li><a href="#services">{t.productsAndServices}</a></li>
               <li><a href="#industries">{t.industries}</a></li>
               <li><a href="#quality">{t.qualityAndCompliance}</a></li>
             </ul>

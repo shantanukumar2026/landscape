@@ -69,13 +69,13 @@ header {
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 2px;
-  height: 140px;
+  height: 156px;
   align-self: flex-start;
   padding: 0 20px;
   width: auto;
   min-width: 180px;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
   transition: all 0.3s ease;
   z-index: 60;
