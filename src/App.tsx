@@ -27,11 +27,20 @@ function App() {
           background: scrolled ? 'var(--bg-dark)' : 'var(--primary-dark)',
           transition: 'background 0.3s ease'
         }}>
-          <a href="#" className="logo-container" style={{ display: 'flex', alignItems: 'center' }}>
+          <a href="#" className={`logo-container ${scrolled ? 'scrolled' : ''}`}>
             <Logo 
-              className="app-logo header-logo" 
-              style={{ width: '100%', height: '100%', alignItems: 'center' }} 
-              imageStyle={{ height: '95px', width: '100%' }} 
+              className={`app-logo header-logo ${scrolled ? 'scrolled' : ''}`}
+              style={{ 
+                width: '100%', 
+                height: '100%', 
+                alignItems: 'center',
+                justifyContent: 'center'
+              }} 
+              imageStyle={{ 
+                height: scrolled ? '80px' : '120px', 
+                width: 'auto', 
+                transition: 'all 0.3s ease'
+              }} 
             />
           </a>
 
